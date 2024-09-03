@@ -7,9 +7,15 @@ body {
 
 header {
     background-color: #333;
+    background-image: url('../img/fundoevento.jpg');
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+header h3 {
+    color: #f8f4f4;
+    font-size: 30px;
 }
 
 nav ul {
