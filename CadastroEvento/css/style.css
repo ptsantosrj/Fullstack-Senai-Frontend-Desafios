@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 header h3 {
@@ -41,6 +43,7 @@ header img {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 h1, h2 {
@@ -48,25 +51,37 @@ h1, h2 {
 }
 
 form {
-    max-width: 600px;
+    max-width: 780px;
     margin: 20px auto;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input, button {
-    width: 100%;
     padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 150px; 
+    margin-right: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group button {
+    flex: 1;
+    padding: 10px;
 }
 
 fieldset {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
+}
+
+fieldset legend {
+    font-weight: bold;
 }
 
 button {
@@ -74,6 +89,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    padding: 10px;
 }
 
 button:hover {
@@ -87,4 +103,5 @@ footer {
     padding: 10px;
     width: 100%;
     bottom: 0;
+    width: 100%;
 }
