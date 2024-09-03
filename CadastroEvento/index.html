@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro para o Tech Conference 2024</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o Evento</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <img src="img/event.jpg" alt="Imagem do evento Tech Conference 2024">
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Sobre o Evento</h1>
+            <p>O Tech Conference 2024 é o maior evento de tecnologia do ano, reunindo especialistas de todo o mundo para discutir inovações e tendências.</p>
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastro para o Tech Conference 2024</h2>
+            <form action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <fieldset>
+                    <legend>Seleção de Workshops:</legend>
+                    <label><input type="checkbox" name="workshop" value="IA"> Inteligência Artificial</label>
+                    <label><input type="checkbox" name="workshop" value="Blockchain"> Blockchain</label>
+                    <label><input type="checkbox" name="workshop" value="IoT"> Internet das Coisas</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Receber Newsletter?</legend>
+                    <label><input type="radio" name="newsletter" value="sim" required> Sim</label>
+                    <label><input type="radio" name="newsletter" value="nao"> Não</label>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato conosco pelo email <a href="mailto:techconference2024@exemplo.com">techconference2024@exemplo.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tech Conference. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
